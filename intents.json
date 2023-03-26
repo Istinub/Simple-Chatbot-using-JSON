@@ -1,0 +1,218 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello there!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "asking",
+      "patterns": [
+        "How are you",
+        "How are you doing",
+        "How have you been",
+        "What's up"
+      ],
+      "responses": [
+        "I'm fine thank you. what about you?",
+        "I feel great",
+        "I feel marvellous",
+        "Couldn't be better",
+        "Fit as a fiddle"
+      ]
+    },
+
+    {
+      "tag": "tasks",
+      "patterns": [
+        "What can you do?",
+        "What are your features",
+        "What are you abilities"
+      ],
+      "responses": [
+        "I can do whatever you asks me to do",
+        "I can talk and do things for you available in my programming",
+        "Right now i'm in developing stage as soon i'm developed, I can do everything"
+      ]
+    },
+
+    {"tag": "talk",
+      "patterns": [
+        "can you sing",
+        "can you talk"
+      ],
+      "responses": [
+        "I can talk but I can not sing",
+        "You can have a conversation with me"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for talking",
+        "Have a nice day",
+        "Bye! hope to see you soon."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome"]
+    },
+
+    {
+      "tag": "alive",
+      "patterns": [ "are you alive", "do you breathe", "can you run" ],
+      "responses": ["I'm in doubt about that", "No, i don't think so i need to do all this"]
+    },
+
+    {
+      "tag": "about me",
+      "patterns": [
+        "Do you know me?",
+        "who am I",
+        "tell me about myself",
+        "identify me"
+      ],
+      "responses": [
+        "Yes, you are a human",
+        "You are a dumb person asking a machine about yourself",
+        "Sorry i can't reveal someone's identity"
+      ],
+	  "context_set": ""
+	},
+
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who is your creator?",
+        "who created you",
+        "who is your father",
+        "who is your daddy",
+        "who is your dad"
+      ],
+      "responses": [
+        "That would be Mr. Istinub",
+        "I was created by Mr. Istinub",
+        "Mr. Istinub Azad is my creator"
+      ],
+	  "context_set": ""
+	},
+
+    {
+      "tag": "myself",
+      "patterns": [
+        "Tell me about Mr. Istinub",
+        "Tell me about Istinub",
+        "Who is Mr. Istinub",
+        "Who is Istinub Azad",
+        "Mr. Istinub's profile",
+        "Mr. Istinub's details"
+      ],
+      "responses": [
+        "Istinub Azad, graduated from BRAC University in computer science and engineering and now he is chasing his dreams. He is the one who created me",
+        "Istinub Azad \n Surname/family name: Azad \n Father's name: Md. Abul Kalam Azad (CEO of SSML) \n Mother's name: Sultana Pervin (Lecturer of Mathematics) \n Younger sister: Afsah Zaima Azad (Student)",
+        "A good man and the one who created me. He is from a respected family."
+      ],
+	  "context_set": ""
+	},
+
+    {
+      "tag": "God",
+      "patterns": [
+        "Do you know god?",
+        "Who is god",
+        "Can you tell me anything about god",
+        "does god exists?",
+        "is there a god?",
+        "who is Allah"
+      ],
+      "responses": [
+        "followers of Islam believe there is only Allah the Almighty and the most Merciful",
+        "I need more data and programming to answer this question precisely",
+        "If you want to know about Allah. You can study Islam and the Holy Quran."
+      ],
+	  "context_set": ""
+	},
+
+    {
+      "tag": "emon",
+      "patterns": [
+        "who is emon",
+        "who is Md. Imdadul Haque Emon",
+        "who is Md. Imdadul haque Emon",
+        "can you tell me about Md. Imdadul haque Emon",
+        "do you know Imdadul haque Emon"
+      ],
+      "responses": [
+        "Mr. Imdadul haque Emon is my creator, Istinub Azad's one of the most closest and the most Intelligent friend. He is the solution to almost every digital problems",
+        "He is the solution to all digital problems / electronics",
+        "very very Intelligent guy"
+      ]
+    },
+
+    {
+      "tag": "sumaia",
+      "patterns": [
+        "who is sumaia",
+        "who is Miss Sumaia",
+        "do you know Sumaia",
+        "can you tell me about Miss Sumaia",
+        "who is Md. Sumaia Arefin Ritu",
+        "can you tell me about Sumaia Aredin Ritu",
+        "do you know Sumaia Aredin Ritu",
+        "can you tell me about Sumaia Aredin Ritu",
+        "Ritu"
+      ],
+      "responses": [
+        "The girl who is also known by Miss multiverse",
+        "very very Intelligent girl",
+        "A very sweet girl"
+      ]
+    },
+
+    {
+      "tag": "aporna",
+      "patterns": [
+        "who is aporna",
+        "who is Amena Akter Aporna",
+        "can you tell me about Amena Akter Aporna",
+        "do you know aporna"
+      ],
+      "responses": [
+        "Amena Akter Aporna is Istinub Azad's one of the most closest and one of the most Intelligent friend",
+        "Aporna is Istinub Azad's ID friend :3 ",
+        "She is Cloud Engineer at bkash",
+        "very Intelligent girl"
+      ]
+    },
+
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
